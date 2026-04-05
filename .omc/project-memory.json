@@ -98,9 +98,69 @@
   },
   "hotPaths": [
     {
+      "path": "lib\\i18n\\content.ts",
+      "accessCount": 16,
+      "lastAccessed": 1775427090925,
+      "type": "file"
+    },
+    {
+      "path": "app\\page.tsx",
+      "accessCount": 16,
+      "lastAccessed": 1775427142387,
+      "type": "file"
+    },
+    {
+      "path": "components\\services.tsx",
+      "accessCount": 8,
+      "lastAccessed": 1775427783873,
+      "type": "file"
+    },
+    {
+      "path": "components\\why-us.tsx",
+      "accessCount": 8,
+      "lastAccessed": 1775428574985,
+      "type": "file"
+    },
+    {
+      "path": "components\\navbar.tsx",
+      "accessCount": 6,
+      "lastAccessed": 1775428104482,
+      "type": "file"
+    },
+    {
+      "path": "components\\contact.tsx",
+      "accessCount": 6,
+      "lastAccessed": 1775428576333,
+      "type": "file"
+    },
+    {
+      "path": "app\\layout.tsx",
+      "accessCount": 5,
+      "lastAccessed": 1775428119570,
+      "type": "file"
+    },
+    {
+      "path": "app\\globals.css",
+      "accessCount": 5,
+      "lastAccessed": 1775428552439,
+      "type": "file"
+    },
+    {
+      "path": "components\\hero.tsx",
+      "accessCount": 4,
+      "lastAccessed": 1775428561738,
+      "type": "file"
+    },
+    {
       "path": "CLAUDE.md",
+      "accessCount": 3,
+      "lastAccessed": 1775368989698,
+      "type": "file"
+    },
+    {
+      "path": "components\\portfolio.tsx",
       "accessCount": 2,
-      "lastAccessed": 1775367888329,
+      "lastAccessed": 1775417737160,
       "type": "file"
     },
     {
@@ -113,18 +173,6 @@
       "path": "AGENTS.md",
       "accessCount": 1,
       "lastAccessed": 1775367845018,
-      "type": "file"
-    },
-    {
-      "path": "app\\layout.tsx",
-      "accessCount": 1,
-      "lastAccessed": 1775367850883,
-      "type": "file"
-    },
-    {
-      "path": "app\\page.tsx",
-      "accessCount": 1,
-      "lastAccessed": 1775367851401,
       "type": "file"
     },
     {
@@ -152,15 +200,75 @@
       "type": "file"
     },
     {
-      "path": "app\\globals.css",
-      "accessCount": 1,
-      "lastAccessed": 1775367853557,
-      "type": "file"
-    },
-    {
       "path": "README.md",
       "accessCount": 1,
       "lastAccessed": 1775367853608,
+      "type": "file"
+    },
+    {
+      "path": "public\\brandings\\logo-full.svg",
+      "accessCount": 1,
+      "lastAccessed": 1775369663639,
+      "type": "file"
+    },
+    {
+      "path": "public\\brandings\\logo-icon.svg",
+      "accessCount": 1,
+      "lastAccessed": 1775369664030,
+      "type": "file"
+    },
+    {
+      "path": "public\\brandings\\brand-element.svg",
+      "accessCount": 1,
+      "lastAccessed": 1775369664453,
+      "type": "file"
+    },
+    {
+      "path": "documents\\landing-page-plan.md",
+      "accessCount": 1,
+      "lastAccessed": 1775369950138,
+      "type": "file"
+    },
+    {
+      "path": "lib\\i18n\\locale-context.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1775370123454,
+      "type": "file"
+    },
+    {
+      "path": "lib\\utils.ts",
+      "accessCount": 1,
+      "lastAccessed": 1775370175958,
+      "type": "file"
+    },
+    {
+      "path": "components\\ui\\button.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1775370176011,
+      "type": "file"
+    },
+    {
+      "path": "components\\ElectricBorder.jsx",
+      "accessCount": 1,
+      "lastAccessed": 1775416519404,
+      "type": "file"
+    },
+    {
+      "path": "components\\process.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1775417895201,
+      "type": "file"
+    },
+    {
+      "path": "components\\footer.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1775427132541,
+      "type": "file"
+    },
+    {
+      "path": "components\\ElectricBorder.css",
+      "accessCount": 1,
+      "lastAccessed": 1775428568631,
       "type": "file"
     }
   ],
