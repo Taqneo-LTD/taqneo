@@ -16,10 +16,68 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+const siteUrl = "https://www.taqneo.com";
+
 export const metadata: Metadata = {
-  title: "Taqneo — Your Digital Partner in Saudi Arabia",
+  metadataBase: new URL(siteUrl),
+  title: {
+    default: "Taqneo — Your Digital Partner in Saudi Arabia",
+    template: "%s | Taqneo",
+  },
   description:
-    "Web design, software development, digital marketing, and IT solutions for businesses in Saudi Arabia.",
+    "Taqneo is a Saudi Arabia-based digital agency specializing in web design, software development, digital marketing, email marketing, office suite setup, and website maintenance.",
+  keywords: [
+    "Taqneo",
+    "digital agency Saudi Arabia",
+    "web design KSA",
+    "software development Riyadh",
+    "digital marketing Saudi",
+    "website development",
+    "email marketing",
+    "office email setup",
+    "website maintenance",
+    "تقنيو",
+    "وكالة رقمية",
+    "تصميم مواقع",
+    "تطوير برمجيات",
+    "تسويق رقمي",
+  ],
+  authors: [{ name: "Taqneo", url: siteUrl }],
+  creator: "Taqneo",
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    alternateLocale: "ar_SA",
+    url: siteUrl,
+    siteName: "Taqneo",
+    title: "Taqneo — Your Digital Partner in Saudi Arabia",
+    description:
+      "Web design, software development, digital marketing, and IT solutions for businesses in Saudi Arabia.",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Taqneo — Software, Website, App, Design, Office Suite, Marketing, Socials",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Taqneo — Your Digital Partner in Saudi Arabia",
+    description:
+      "Web design, software development, digital marketing, and IT solutions for businesses in Saudi Arabia.",
+    images: ["/og-image.png"],
+    creator: "@taqneo",
+    site: "@taqneo",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+  alternates: {
+    canonical: siteUrl,
+  },
 };
 
 export default function RootLayout({

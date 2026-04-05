@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import { useLocale } from "@/lib/i18n/locale-context";
 import { t } from "@/lib/i18n/content";
 
@@ -48,6 +49,16 @@ export default function Footer() {
               {social.icon}
             </a>
           ))}
+        </div>
+
+        {/* Legal links */}
+        <div className="flex items-center gap-4 text-xs text-muted-foreground/40">
+          <Link href="/terms" className="transition-colors hover:text-muted-foreground">
+            {locale === "en" ? "Terms & Conditions" : "الشروط والأحكام"}
+          </Link>
+          <Link href="/privacy" className="transition-colors hover:text-muted-foreground">
+            {locale === "en" ? "Privacy Policy" : "سياسة الخصوصية"}
+          </Link>
         </div>
 
         {/* Copyright + location */}

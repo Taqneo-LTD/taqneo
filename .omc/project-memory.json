@@ -122,6 +122,12 @@
       "type": "file"
     },
     {
+      "path": "app\\layout.tsx",
+      "accessCount": 7,
+      "lastAccessed": 1775430368893,
+      "type": "file"
+    },
+    {
       "path": "components\\navbar.tsx",
       "accessCount": 6,
       "lastAccessed": 1775428104482,
@@ -134,12 +140,6 @@
       "type": "file"
     },
     {
-      "path": "app\\layout.tsx",
-      "accessCount": 5,
-      "lastAccessed": 1775428119570,
-      "type": "file"
-    },
-    {
       "path": "app\\globals.css",
       "accessCount": 5,
       "lastAccessed": 1775428552439,
@@ -149,6 +149,12 @@
       "path": "components\\hero.tsx",
       "accessCount": 4,
       "lastAccessed": 1775428561738,
+      "type": "file"
+    },
+    {
+      "path": "components\\footer.tsx",
+      "accessCount": 4,
+      "lastAccessed": 1775430388356,
       "type": "file"
     },
     {
@@ -260,15 +266,33 @@
       "type": "file"
     },
     {
-      "path": "components\\footer.tsx",
-      "accessCount": 1,
-      "lastAccessed": 1775427132541,
-      "type": "file"
-    },
-    {
       "path": "components\\ElectricBorder.css",
       "accessCount": 1,
       "lastAccessed": 1775428568631,
+      "type": "file"
+    },
+    {
+      "path": "app\\sitemap.ts",
+      "accessCount": 1,
+      "lastAccessed": 1775430328373,
+      "type": "file"
+    },
+    {
+      "path": "app\\robots.ts",
+      "accessCount": 1,
+      "lastAccessed": 1775430329983,
+      "type": "file"
+    },
+    {
+      "path": "app\\terms\\page.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1775430345595,
+      "type": "file"
+    },
+    {
+      "path": "app\\privacy\\page.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1775430355176,
       "type": "file"
     }
   ],
