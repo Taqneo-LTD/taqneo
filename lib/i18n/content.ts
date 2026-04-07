@@ -302,7 +302,7 @@ export const content = {
       heading: "Let's Build Something",
       headingAccent: "Great",
       subtitle: "Ready to take your digital presence to the next level?",
-      email: "taqneo101@gmail.com",
+      email: "hello@teqneo.com",
       cta: "Send Us a Message",
       form: {
         name: "Your Name",
@@ -326,7 +326,7 @@ export const content = {
       heading: "لنبنِ شيئاً",
       headingAccent: "عظيماً",
       subtitle: "مستعد لنقل حضورك الرقمي إلى المستوى التالي؟",
-      email: "taqneo101@gmail.com",
+      email: "hello@teqneo.com",
       cta: "أرسل لنا رسالة",
       form: {
         name: "الاسم",

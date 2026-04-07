@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastScanned": 1775354184808,
+  "lastScanned": 1775529203083,
   "projectRoot": "C:\\_code\\Parts\\Taqneo\\taqneo",
   "techStack": {
     "languages": [
@@ -54,8 +54,8 @@
     }
   },
   "conventions": {
-    "namingStyle": null,
-    "importStyle": null,
+    "namingStyle": "camelCase",
+    "importStyle": "ES modules",
     "testPattern": null,
     "fileOrganization": null
   },
@@ -64,6 +64,8 @@
     "workspaces": [],
     "mainDirectories": [
       "app",
+      "components",
+      "lib",
       "public"
     ],
     "gitBranches": null
@@ -73,40 +75,75 @@
     "app": {
       "path": "app",
       "purpose": "Application code",
-      "fileCount": 4,
-      "lastAccessed": 1775354184775,
+      "fileCount": 6,
+      "lastAccessed": 1775529203029,
       "keyFiles": [
         "favicon.ico",
         "globals.css",
         "layout.tsx",
-        "page.tsx"
+        "page.tsx",
+        "robots.ts"
+      ]
+    },
+    "components": {
+      "path": "components",
+      "purpose": "UI components",
+      "fileCount": 11,
+      "lastAccessed": 1775529203029,
+      "keyFiles": [
+        "contact.tsx",
+        "ElectricBorder.css",
+        "ElectricBorder.jsx",
+        "footer.tsx",
+        "hero.tsx"
+      ]
+    },
+    "documents": {
+      "path": "documents",
+      "purpose": null,
+      "fileCount": 1,
+      "lastAccessed": 1775529203044,
+      "keyFiles": [
+        "landing-page-plan.md"
+      ]
+    },
+    "lib": {
+      "path": "lib",
+      "purpose": "Library code",
+      "fileCount": 1,
+      "lastAccessed": 1775529203045,
+      "keyFiles": [
+        "utils.ts"
       ]
     },
     "public": {
       "path": "public",
       "purpose": "Public files",
-      "fileCount": 5,
-      "lastAccessed": 1775354184776,
+      "fileCount": 2,
+      "lastAccessed": 1775529203045,
       "keyFiles": [
-        "file.svg",
-        "globe.svg",
-        "next.svg",
-        "vercel.svg",
-        "window.svg"
+        "Kolom Technologies _ Software, Design & AI Solutions.html",
+        "og-image.png"
       ]
     }
   },
   "hotPaths": [
     {
       "path": "lib\\i18n\\content.ts",
-      "accessCount": 16,
-      "lastAccessed": 1775427090925,
+      "accessCount": 20,
+      "lastAccessed": 1775529349182,
       "type": "file"
     },
     {
       "path": "app\\page.tsx",
       "accessCount": 16,
       "lastAccessed": 1775427142387,
+      "type": "file"
+    },
+    {
+      "path": "components\\contact.tsx",
+      "accessCount": 9,
+      "lastAccessed": 1775529366149,
       "type": "file"
     },
     {
@@ -131,12 +168,6 @@
       "path": "components\\navbar.tsx",
       "accessCount": 6,
       "lastAccessed": 1775428104482,
-      "type": "file"
-    },
-    {
-      "path": "components\\contact.tsx",
-      "accessCount": 6,
-      "lastAccessed": 1775428576333,
       "type": "file"
     },
     {
